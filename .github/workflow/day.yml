@@ -1,0 +1,14 @@
+name: firstpipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  demojob:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: trail pipeline
+        run: echo "hello"
