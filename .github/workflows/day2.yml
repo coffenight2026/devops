@@ -1,0 +1,12 @@
+name: examplepipeline
+
+on:
+  workflow_dispatch: 
+
+jobs:
+  demo2:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "manualtrigger"
+  
